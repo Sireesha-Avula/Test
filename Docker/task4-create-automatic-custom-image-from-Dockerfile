@@ -1,0 +1,18 @@
+# create Dockerfile
+
+# create index.html
+
+# run below command
+
+```
+cd .\Docker\
+docker build --tag srishimage:v2 -f .\Dockerfile .
+
+```
+# create container from above image created
+Homework to do
+
+----
+docker run --name srishimagev2createdfromdockerfile -p 7575:80 -it srishimage:v2
+
+----
