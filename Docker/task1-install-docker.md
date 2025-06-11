@@ -30,7 +30,7 @@ docker pull ubuntu
 # Create an Ubuntu base container from ubuntu image
 
 ```
-docker run --name azv08 -p 8080:80 -it ubuntu
+docker run --name sireeshacontainer -p 8080:80 -it ubuntu
 apt-get update
 apt-get install nginx
 service nginx status
